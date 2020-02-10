@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 75%;
+  border: 0.15rem solid #f1f1f1;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+h1 {
+  color: #0b3d91;
+}
+
+h3 {
+  color: #fc3d21;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 1025px) {
+  .container {
+    width: 50%;
+  }
+}
